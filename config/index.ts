@@ -40,12 +40,12 @@ export const siteConfig: Metadata = {
     "css",
   ] as Array<string>,
   authors: {
-    name: "Sanidhya Kumar Verma",
-    url: "https://github.com/sanidhyy",
+    name: "Akhriev Ramazan",
+    url: "https://github.com/AhrievRamazan/duolingo-clone",
   },
 } as const;
 
 export const links = {
-  sourceCode: "https://github.com/sanidhyy/duolingo-clone",
-  email: "sanidhya.verma12345@gmail.com",
+  sourceCode: "https://github.com/AhrievRamazan/duolingo-clone",
+  email: "ramazanahriev278@gmail.com",
 } as const;
