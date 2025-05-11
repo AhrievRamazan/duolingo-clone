@@ -20,10 +20,10 @@ import { UnitEdit } from "./unit/edit";
 import { UnitList } from "./unit/list";
 
 const dataProvider = simpleRestProvider("/api");
-
+// dataProvider={dataProvider}
 const App = () => {
   return (
-    <Admin dataProvider={dataProvider}>
+    <Admin >
       <Resource
         name="courses"
         recordRepresentation="title"
