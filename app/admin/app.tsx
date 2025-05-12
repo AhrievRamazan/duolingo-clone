@@ -23,7 +23,7 @@ const dataProvider = simpleRestProvider("/api");
 // dataProvider={dataProvider}
 const App = () => {
   return (
-    <Admin >
+    <Admin dataProvider={dataProvider}>
       <Resource
         name="courses"
         recordRepresentation="title"
